@@ -1,0 +1,24 @@
+<div>
+    <div class="container card ">
+        <div class="card-header">Log-In Form</div>
+        <div class="row">
+          <div class="col-md-6">
+            <form [formGroup]="Form">
+      
+                  <label>Email</label>
+                  <input class=" form-control" type="email"  formControlName="email"><br>
+            
+                 <label>Password</label>
+                  <input class=" form-control"  type="password"  formControlName="password" >
+                  <br>
+                <div>
+                  <button type="button" class="btn btn-success" (click)="onSubmit()">Submit</button>
+                </div>
+               
+            </form>
+          </div>
+         
+        </div>
+      
+      </div>
+      </div>
