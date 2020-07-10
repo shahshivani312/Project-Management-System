@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { AdminModule } from './login/admin/admin.module';
+import { OnboardComponent } from './onboard/onboard.component';
 
 
 
@@ -15,6 +16,7 @@ import { AdminModule } from './login/admin/admin.module';
   declarations: [
     AppComponent,
     LoginComponent,
+    OnboardComponent,
     
   ],
   imports: [

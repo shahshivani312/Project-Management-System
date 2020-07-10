@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
     
     if (this.Form.value.email == this.emailId && this.Form.value.password == this.password) {
       console.log("welcome");
-      this.router.navigate(['admin']);
+      this.router.navigate(['admin/dashboard']);
     }else{
       console.log("wrong input");
     }
